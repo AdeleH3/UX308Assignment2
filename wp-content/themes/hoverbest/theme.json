@@ -1,0 +1,310 @@
+{
+	"$schema": "https://schemas.wp.org/wp/6.9/theme.json",
+	"version": 3,
+	"settings": {
+		"appearanceTools": true,
+		"color": {
+			"palette": [
+				{
+					"color": "#dca43d",
+					"name": "Orange",
+					"slug": "orange"
+				},
+				{
+					"color": "#0B0A08",
+					"name": "Black Rich",
+					"slug": "black-rich"
+				},
+				{
+					"color": "#393939",
+					"name": "Dark Gray",
+					"slug": "dark-gray"
+				},
+				{
+					"color": "#979797",
+					"name": "Light Gray",
+					"slug": "light-gray"
+				},
+				{
+					"color": "#7D7D7D",
+					"name": "Medium Gray",
+					"slug": "medium-gray"
+				},
+				{
+					"color": "#131212",
+					"name": "Charcoal",
+					"slug": "charcoal"
+				}
+			]
+		},
+		"layout": {
+			"contentSize": "620px",
+			"wideSize": "1000px"
+		},
+		"spacing": {
+			"units": [
+				"%",
+				"px",
+				"em",
+				"rem",
+				"vh",
+				"vw"
+			]
+		},
+		"typography": {
+			"fontFamilies": [
+				{
+					"fontFamily": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif",
+					"name": "System Font",
+					"slug": "system-font"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "100",
+							"src": [
+								"file:./source/fonts/inter-tight-100-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "200",
+							"src": [
+								"file:./source/fonts/inter-tight-200-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "300",
+							"src": [
+								"file:./source/fonts/inter-tight-300-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./source/fonts/inter-tight-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./source/fonts/inter-tight-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./source/fonts/inter-tight-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./source/fonts/inter-tight-700-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./source/fonts/inter-tight-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "normal",
+							"fontWeight": "900",
+							"src": [
+								"file:./source/fonts/inter-tight-900-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "100",
+							"src": [
+								"file:./source/fonts/inter-tight-100-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "200",
+							"src": [
+								"file:./source/fonts/inter-tight-200-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "300",
+							"src": [
+								"file:./source/fonts/inter-tight-300-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "400",
+							"src": [
+								"file:./source/fonts/inter-tight-400-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "500",
+							"src": [
+								"file:./source/fonts/inter-tight-500-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "600",
+							"src": [
+								"file:./source/fonts/inter-tight-600-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "700",
+							"src": [
+								"file:./source/fonts/inter-tight-700-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "800",
+							"src": [
+								"file:./source/fonts/inter-tight-800-italic.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Inter Tight\"",
+							"fontStyle": "italic",
+							"fontWeight": "900",
+							"src": [
+								"file:./source/fonts/inter-tight-900-italic.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Inter Tight\", sans-serif",
+					"name": "Inter Tight",
+					"slug": "inter-tight"
+				},
+				{
+					"fontFace": [
+						{
+							"fontFamily": "\"Abhaya Libre\"",
+							"fontStyle": "normal",
+							"fontWeight": "800",
+							"src": [
+								"file:./assets/fonts/abhaya-libre/abhaya-libre-800-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Abhaya Libre\"",
+							"fontStyle": "normal",
+							"fontWeight": "400",
+							"src": [
+								"file:./assets/fonts/abhaya-libre/abhaya-libre-400-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Abhaya Libre\"",
+							"fontStyle": "normal",
+							"fontWeight": "500",
+							"src": [
+								"file:./assets/fonts/abhaya-libre/abhaya-libre-500-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Abhaya Libre\"",
+							"fontStyle": "normal",
+							"fontWeight": "600",
+							"src": [
+								"file:./assets/fonts/abhaya-libre/abhaya-libre-600-normal.woff2"
+							]
+						},
+						{
+							"fontFamily": "\"Abhaya Libre\"",
+							"fontStyle": "normal",
+							"fontWeight": "700",
+							"src": [
+								"file:./assets/fonts/abhaya-libre/abhaya-libre-700-normal.woff2"
+							]
+						}
+					],
+					"fontFamily": "\"Abhaya Libre\", serif",
+					"name": "Abhaya Libre",
+					"slug": "abhaya-libre"
+				}
+			]
+		},
+		"useRootPaddingAwareAlignments": true
+	},
+	"styles": {
+		"color": {
+			"background": "var(--wp--preset--color--black-rich)",
+			"text": "var(--wp--preset--color--white)"
+		},
+		"elements": {
+			"button": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter-tight)"
+				}
+			},
+			"caption": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter-tight)"
+				}
+			},
+			"heading": {
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter-tight)"
+				}
+			},
+			"link": {
+				"color": {
+					"text": "var(--wp--preset--color--white)"
+				},
+				"typography": {
+					"fontFamily": "var(--wp--preset--font-family--inter-tight)"
+				}
+			}
+		},
+		"spacing": {
+			"blockGap": "0px"
+		},
+		"typography": {
+			"fontFamily": "var(--wp--preset--font-family--inter-tight)"
+		}
+	},
+	"templateParts": [
+		{
+			"area": "header",
+			"name": "header"
+		},
+		{
+			"area": "footer",
+			"name": "footer"
+		}
+	]
+}
