@@ -1,0 +1,27 @@
+[13-Mar-2026 19:47:49 UTC] PHP Warning:  Undefined variable $parent_theme_name in /workspaces/UX303-Assignment2/.wordpress/wp-content/mu-plugins/one-click-child-theme/templates/create_child_form.php on line 18
+[13-Mar-2026 19:53:12 UTC] PHP Parse error:  syntax error, unexpected identifier "wp_enqueue_script_module", expecting ")" in /workspaces/UX303-Assignment2/.wordpress/wp-content/themes/adele/functions.php on line 15
+[13-Mar-2026 19:53:12 UTC] PHP Warning:  Trying to access array offset on false in /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 367
+[13-Mar-2026 19:53:12 UTC] PHP Warning:  Trying to access array offset on false in /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php on line 368
+[13-Mar-2026 19:53:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function ic_string_contains() in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php:467
+Stack trace:
+#0 /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-hook.php(341): IC_EPC_Tracking->paused_plugin_report_email(Array, 'http://localhos...')
+#1 /workspaces/UX303-Assignment2/.wordpress/wp-includes/plugin.php(205): WP_Hook->apply_filters(Array, Array)
+#2 /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(223): apply_filters('recovery_mode_e...', Array, 'http://localhos...')
+#3 /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode-email-service.php(62): WP_Recovery_Mode_Email_Service->send_recovery_mode_email(86400, Array, Array)
+#4 /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-recovery-mode.php(185): WP_Recovery_Mode_Email_Service->maybe_send_recovery_mode_email(86400, Array, Array)
+#5 /workspaces/UX303-Assignment2/.wordpress/wp-includes/class-wp-fatal-error-handler.php(55): WP_Recovery_Mode->handle_error(Array)
+#6 [internal function]: WP_Fatal_Error_Handler->handle()
+#7 {main}
+  thrown in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 467
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/customizer.php on line 353
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 33
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:42 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 32
+[13-Mar-2026 20:45:42 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:43 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/class-ic-sitewide-bar.php on line 250
+[13-Mar-2026 20:45:43 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/customizer.php on line 18
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/class-ic-sitewide-bar.php on line 270
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
