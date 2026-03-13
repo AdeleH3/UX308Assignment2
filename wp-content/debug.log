@@ -13,3 +13,15 @@ Stack trace:
 #6 [internal function]: WP_Fatal_Error_Handler->handle()
 #7 {main}
   thrown in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/tracking.php on line 467
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/customizer.php on line 353
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 35651584 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 33
+[13-Mar-2026 20:45:40 UTC] PHP Fatal error:  Out of memory (allocated 31457280 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:42 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/blocks/index.php on line 32
+[13-Mar-2026 20:45:42 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:43 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/class-ic-sitewide-bar.php on line 250
+[13-Mar-2026 20:45:43 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/customizer.php on line 18
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-content/plugins/ecommerce-product-catalog/includes/class-ic-sitewide-bar.php on line 270
+[13-Mar-2026 20:45:48 UTC] PHP Fatal error:  Out of memory (allocated 29360128 bytes) (tried to allocate 2097152 bytes) in /workspaces/UX303-Assignment2/.wordpress/wp-includes/Requests/src/Cookie/Jar.php on line 32
